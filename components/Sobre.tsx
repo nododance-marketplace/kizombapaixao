@@ -22,7 +22,7 @@ export default function Sobre() {
                     src={p.image}
                     alt={`Portrait of ${p.name}, ${p.role}`}
                     filename={p.imageFilename}
-                    className="aspect-[4/5] w-full object-cover transition-transform duration-[400ms] group-hover:scale-[1.03]"
+                    className="aspect-[4/5] w-full object-cover object-top transition-transform duration-[400ms] group-hover:scale-[1.03]"
                   />
                 </div>
                 <h3 className="mt-6 font-display text-2xl text-cream md:text-3xl">
