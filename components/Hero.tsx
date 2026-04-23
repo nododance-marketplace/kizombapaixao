@@ -73,8 +73,10 @@ export default function Hero() {
         <source src={DESKTOP_SRC} type="video/mp4" />
       </video>
 
-      {/* Bottom-heavy dark gradient for text legibility */}
-      <div className="absolute inset-0 bg-gradient-to-t from-noite via-noite/60 to-noite/20" />
+      {/* Vignette-style gradient: darkest through the middle where text sits,
+          lighter top and bottom so the hero video (especially the footwork)
+          stays visible. */}
+      <div className="absolute inset-0 bg-gradient-to-t from-noite/30 via-noite/60 to-noite/20" />
 
       <FilmGrain />
 
