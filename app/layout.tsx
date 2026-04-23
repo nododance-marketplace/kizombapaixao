@@ -30,6 +30,9 @@ const SITE_DESCRIPTION =
 const OG_IMAGE = "/assets/logo-black-bg.png";
 
 export const metadata: Metadata = {
+  // Used by Next.js to resolve relative image URLs in openGraph/twitter cards.
+  // Update this when a custom domain is attached (e.g. charlottekizombapaixao.com).
+  metadataBase: new URL("https://kizombapaixao.vercel.app"),
   title: SITE_TITLE,
   description: SITE_DESCRIPTION,
   keywords: [
