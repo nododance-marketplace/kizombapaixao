@@ -42,7 +42,7 @@ export default function Styles() {
                   filename={c.filename}
                   label={c.filename}
                   controls
-                  className="aspect-video w-full bg-terra object-cover"
+                  className="mx-auto aspect-[9/16] w-full max-w-sm bg-terra object-cover"
                 />
                 <div className="mt-5">
                   <h3 className="font-display text-2xl uppercase tracking-wide text-cream">
